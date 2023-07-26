@@ -1,0 +1,12 @@
+.whatsapp{
+  position: fixed;
+  width: 50px;
+  margin-top: 800px;
+  background-color: #050;
+  border-radius: 100%;
+  z-index: 100000;
+}
+
+nav{
+  background-color: #034 !important;
+}
