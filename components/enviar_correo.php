@@ -31,7 +31,7 @@ if (isset($data["nombre"]) && isset($data["correo"]) && isset($data["mensaje"]))
         $mail->setFrom('turisclapaz@hotmail.com');
         $mail->addAddress($correo);
         $mail->Subject = 'Mensaje de contacto desde tu sitio web';
-        $mail->Body    = 'Gracias por tu mensaje, ' . $nombre . '. Nos pondremos en contacto contigo lo antes posible. <br><br> Este es tu mensaje: <br><br>' . $mensaje;'';  
+        $mail->Body    = 'Gracias por tu mensaje, ' . $nombre . '. Nos pondremos en contacto contigo lo antes posible.  Este es tu mensaje: ' . $mensaje;'';  
 
         $mail->send();
         $mailUser->isSMTP();
