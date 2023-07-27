@@ -34,14 +34,14 @@
 
 
   <?php
-  include('components/navegation.html');
-  include('components/home.html');
-  include('components/about.html');
-  include('components/portfolio.html');
-  include('components/testimonial.html');
-  // include('components/blog.html');
-  include('components/contact.html');
-  include('components/footer.html');
+    include('components/navegation.html');
+    include('components/home.html');
+    include('components/about.html');
+    include('components/portfolio.html');
+    include('components/testimonial.html');
+    // include('components/blog.html');
+    include('components/contact.html');
+    include('components/footer.html');
   ?>
 
   <!-- core  -->
@@ -58,6 +58,8 @@
   <!-- Ollie js -->
 
   <script src="assets/js/Ollie.js"></script>
+  <script src="assets/js/email.js"></script>
+  <dialog id='res-email'></dialog>
 </body>
 
 </html>
