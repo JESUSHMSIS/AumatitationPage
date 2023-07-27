@@ -29,8 +29,9 @@
     include('components/testimonial.html');
     include('components/blog.html');
     include('components/contact.html');
+    include('components/footer.html')
   ?>
-  
+
   <!-- core  -->
   <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
   <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
@@ -45,5 +46,7 @@
   <!-- Ollie js -->
   
   <script src="assets/js/Ollie.js"></script>
+  <script src="assets/js/email.js"></script>
+  <dialog id='res-email'></dialog>
 </body>
 </html>
